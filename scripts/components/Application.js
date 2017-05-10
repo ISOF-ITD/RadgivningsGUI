@@ -2,6 +2,7 @@ import React from 'react';
 import { hashHistory } from 'react-router';
 
 import EventBus from 'eventbusjs';
+import FrageLadanForm from './FrageLadanForm';
 
 export default class Application extends React.Component {
 	constructor(props) {
@@ -20,17 +21,10 @@ export default class Application extends React.Component {
 		} = this.props;
 		return (
 			<div className="app" style={{width: '100%', maxWidth: 1200, margin: 20}}>
-				<p><a href="#/map">Visa example module med en karta</a></p>
-				<p><a href="#/form">Visa example module med formulär</a></p>
-				<div>
-					<h3>Main module area</h3>
-					<p>Här under kommer moduler att dyka upp</p>
+				<FrageLadanForm/>
 
-					<hr/>
+				{main}
 
-					{main}
-
-				</div>
 			</div>
 		);
 	}
