@@ -45,7 +45,6 @@ export default class FragaSvarList extends React.Component {
 
 		return (
 			<div>
-				FragaSvarList
 
 				{items}
 			</div>

@@ -37,11 +37,10 @@ export default class FragaSvarItem extends React.Component {
 
 	render() {
 		return (
-			<div>
-				FragaSvarItem
+			<div className="list">
 
-				<div onClick={this.titleClick} dangerouslySetInnerHTML={{ __html: this.state.data.question}}></div>
-				<div style={{display: this.state.open ? 'block': 'none'}} dangerouslySetInnerHTML={{ __html: this.state.data.answer}}></div>
+				<div className="fraga" onClick={this.titleClick} dangerouslySetInnerHTML={{ __html: this.state.data.question}}></div>
+				<div className="svar" style={{display: this.state.open ? 'block': 'none'}} dangerouslySetInnerHTML={{ __html: this.state.data.answer}}></div>
 			</div>
 		);
 	}
