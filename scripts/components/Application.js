@@ -20,7 +20,7 @@ export default class Application extends React.Component {
 			main
 		} = this.props;
 		return (
-			<div className="app" style={{width: '100%', maxWidth: 1200, margin: 20}}>
+			<div className="app">
 				<FrageLadanForm/>
 
 				{main}
