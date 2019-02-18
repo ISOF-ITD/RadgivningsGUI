@@ -46,10 +46,10 @@ export default class FrageLadanForm extends React.Component {
 		return (
 			<div>
 				<h2 className="header">Frågelådan</h2>
-				<div className="soktext">Skriv in ord eller fras:</div>
+				<p className="ingress">Skriv in ord eller fras:<br/><br/></p>
 				<label><input className="sokfalt" type="text" value={this.state.searchStringValue} onChange={this.searchStringValueChangeHandler} onKeyDown={this.searchStringKeyDownHandler} /></label>
 
-				<a className="searchbutton" onClick={this.search}>Sök</a>
+				<a className="button button-primary" onClick={this.search}>Sök</a>
 			</div>
 		);
 	}
