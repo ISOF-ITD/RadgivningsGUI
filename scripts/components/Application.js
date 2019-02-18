@@ -21,7 +21,7 @@ export default class Application extends React.Component {
 		} = this.props;
 		return (
 			<div className="app" style={{width: '100%', maxWidth: 1200, margin: 20}}>
-				<FrageLadanForm/>
+				<FrageLadanForm language={this.props.params.language}/>
 
 				{main}
 

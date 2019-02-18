@@ -39,7 +39,7 @@ export default class FrageLadanForm extends React.Component {
 	}
 
 	search() {
-		hashHistory.push('sok/'+this.state.searchStringValue);
+		hashHistory.push(this.props.language + '/sok/'+this.state.searchStringValue);
 	}
 
 	render() {

@@ -18,7 +18,7 @@ if (!window.Promise) {
 ReactDOM.render(
 	<Router history={hashHistory}>
 		<Route path="/" component={Application}>
-			<Route path="/sok/:search(/kategori/:category)" components={{main: FragaSvarList}} />
+			<Route path="/:language/sok/:search(/kategori/:category)" components={{main: FragaSvarList}} />
 
 		</Route>
 	</Router>,
