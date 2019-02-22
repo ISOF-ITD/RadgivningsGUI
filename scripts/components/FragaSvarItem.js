@@ -42,7 +42,7 @@ export default class FragaSvarItem extends React.Component {
 		if (this.state.data.videofile !== undefined)
 			html = html + '<br>Video ' +  this.state.data.videofile;
 			html = html + '<video autoplay id="glossvideo-3" preload="metadata" controls muted style="max-width: 600px;">' + 
-			'<source src="http://frigg.sprakochfolkminnen.se/media/' + this.state.data.videofile + '" type="video/mp4">' +
+			'<source src="https://frigg.sprakochfolkminnen.se/media/' + this.state.data.videofile + '" type="video/mp4">' +
 			 '</video>'
 
 //		return {__html: this.state.data.answer}; 
