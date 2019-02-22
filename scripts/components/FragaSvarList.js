@@ -39,7 +39,7 @@ export default class FragaSvarList extends React.Component {
 					});		
 		}
 		if (this.props.params.language == 'tecken') {
-			fetch('http://frigg.sprakochfolkminnen.se/teckenlistan/dictionary/translationservice/?term='+searchstring+'&selkat=alla')
+			fetch('https://frigg.sprakochfolkminnen.se/teckenlistan/dictionary/translationservice/?term='+searchstring+'&selkat=alla')
 					.then(function(response) {
 						// Första steget i fetch är att leverera data som json till nästa steg
 						return response.json()
