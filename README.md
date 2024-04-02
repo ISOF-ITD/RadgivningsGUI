@@ -1,2 +1,2 @@
 # Rådgivningsapplikation
-Test med reactjs-app mot Språkfrågans webbtjänst
+Test med reactjs-app mot Frågelåsdans webbtjänst för språkfrågor
